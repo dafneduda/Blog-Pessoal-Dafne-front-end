@@ -29,8 +29,8 @@ function Navbar() {
             <Link to="/temas" className="hover:underline">Temas</Link>
             <Link to="/cadastroTema" className="hover:underline">Cadastrar tema</Link>
             <Link to='/perfil' className='hover:underline'>Perfil</Link>
-            <Link to="" onClick={logout} className="hover:underline">Sair</Link>
             <img src={usuario.foto} className="w-9 h-full rounded-full border-purple-400 border-4"/>
+            <Link to="" onClick={logout} className="hover:underline">Sair</Link>
           </div>
         </div>
       </div>

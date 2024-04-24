@@ -20,7 +20,7 @@ const {usuario} = useContext(AuthContext)
             <div className="flex justify-around gap-4">
             <ModalPostagem />
 
-             <Link to="/postagens" > <button className='rounded bg-pink text-pink-800 py-2 px-4'>Ver postagens</button></Link>
+             <Link to="/postagens" > <button className='rounded bg-pink text-white-800 py-2 px-4 border-white'>Ver postagens</button></Link>
             </div>
           </div>
 
